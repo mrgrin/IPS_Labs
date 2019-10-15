@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\Volosov\source\repos\IPS_Lab_1\IPS_Lab_1\Source.cpp(22): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    	cilk_for(long i = 0; i < size; ++i)
+    	^
+  
+C:\Users\Volosov\source\repos\IPS_Lab_1\IPS_Lab_1\Source.cpp(55): warning #3946: "_Cilk_spawn" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    		cilk_spawn
+    		^
+  
