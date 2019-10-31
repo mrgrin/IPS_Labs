@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/10/31 11:24:57</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r004mi2\r004mi2.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</arg>
+  <arg>4412</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:58 2019</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</arg>
+  <arg>0xae0000</arg>
+  <arg>0xaf4fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:58 2019</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x73e20000</arg>
+  <arg>0x74003fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:58 2019</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x75e10000</arg>
+  <arg>0x75eeffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:58 2019</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77540000</arg>
+  <arg>0x776cffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:58 2019</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140d.dll</arg>
+  <arg>0xccf0000</arg>
+  <arg>0xcda6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:59 2019</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0xf320000</arg>
+  <arg>0xf493fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:59 2019</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:59 2019</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0xf590000</arg>
+  <arg>0xf5aafff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:59 2019</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll</arg>
+  <arg>0xf4f0000</arg>
+  <arg>0xf537fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:24:59 2019</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\user32.dll</arg>
+  <arg>0x750c0000</arg>
+  <arg>0x7524cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:00 2019</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\win32u.dll</arg>
+  <arg>0x74f50000</arg>
+  <arg>0x74f66fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:00 2019</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\gdi32.dll</arg>
+  <arg>0x74930000</arg>
+  <arg>0x74951fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:00 2019</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\gdi32full.dll</arg>
+  <arg>0x747c0000</arg>
+  <arg>0x74923fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:00 2019</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp_win.dll</arg>
+  <arg>0x75250000</arg>
+  <arg>0x752ccfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:00 2019</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>0x75ef0000</arg>
+  <arg>0x7600dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:00 2019</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140d.dll</arg>
+  <arg>0xfc40000</arg>
+  <arg>0xfcf6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:00 2019</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\imm32.dll</arg>
+  <arg>0x75d20000</arg>
+  <arg>0x75d45fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:02 2019</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll</arg>
+  <arg>0xf8f0000</arg>
+  <arg>0xf91cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:03 2019</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>79259,2034,9323,976</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:04 2019</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:05 2019</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:06 2019</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:07 2019</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:08 2019</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:09 2019</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:10 2019</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:11 2019</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:12 2019</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:13 2019</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:14 2019</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:15 2019</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:16 2019</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:17 2019</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:18 2019</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:19 2019</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:20 2019</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:21 2019</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:22 2019</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:23 2019</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:24 2019</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:25 2019</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:26 2019</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:27 2019</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:28 2019</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:29 2019</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:30 2019</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:31 2019</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:32 2019</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:33 2019</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:34 2019</timestamp>
+</msg>
+<msg id="54" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:35 2019</timestamp>
+</msg>
+<msg id="55" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:36 2019</timestamp>
+</msg>
+<msg id="56" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:37 2019</timestamp>
+</msg>
+<msg id="57" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:38 2019</timestamp>
+</msg>
+<msg id="58" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:39 2019</timestamp>
+</msg>
+<msg id="59" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:40 2019</timestamp>
+</msg>
+<msg id="60" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:41 2019</timestamp>
+</msg>
+<msg id="61" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:42 2019</timestamp>
+</msg>
+<msg id="62" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:43 2019</timestamp>
+</msg>
+<msg id="63" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:44 2019</timestamp>
+</msg>
+<msg id="64" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:45 2019</timestamp>
+</msg>
+<msg id="65" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:46 2019</timestamp>
+</msg>
+<msg id="66" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:47 2019</timestamp>
+</msg>
+<msg id="67" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:48 2019</timestamp>
+</msg>
+<msg id="68" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:49 2019</timestamp>
+</msg>
+<msg id="69" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:50 2019</timestamp>
+</msg>
+<msg id="70" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:51 2019</timestamp>
+</msg>
+<msg id="71" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:52 2019</timestamp>
+</msg>
+<msg id="72" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:53 2019</timestamp>
+</msg>
+<msg id="73" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:54 2019</timestamp>
+</msg>
+<msg id="74" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:55 2019</timestamp>
+</msg>
+<msg id="75" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:56 2019</timestamp>
+</msg>
+<msg id="76" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:57 2019</timestamp>
+</msg>
+<msg id="77" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,12680,11304,12440</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:58 2019</timestamp>
+</msg>
+<msg id="78" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:25:59 2019</timestamp>
+</msg>
+<msg id="79" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:00 2019</timestamp>
+</msg>
+<msg id="80" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:01 2019</timestamp>
+</msg>
+<msg id="81" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:02 2019</timestamp>
+</msg>
+<msg id="82" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:03 2019</timestamp>
+</msg>
+<msg id="83" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:04 2019</timestamp>
+</msg>
+<msg id="84" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:05 2019</timestamp>
+</msg>
+<msg id="85" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:06 2019</timestamp>
+</msg>
+<msg id="86" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932</arg>
+  <arg>1</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:07 2019</timestamp>
+</msg>
+<msg id="87" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x74970000</arg>
+  <arg>0x7497efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:08 2019</timestamp>
+</msg>
+<msg id="88" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x746f0000</arg>
+  <arg>0x747aefff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:08 2019</timestamp>
+</msg>
+<msg id="89" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x75d50000</arg>
+  <arg>0x75e0ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:08 2019</timestamp>
+</msg>
+<msg id="90" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\sspicli.dll</arg>
+  <arg>0x73e00000</arg>
+  <arg>0x73e1ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:08 2019</timestamp>
+</msg>
+<msg id="91" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptbase.dll</arg>
+  <arg>0x73df0000</arg>
+  <arg>0x73df9fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:08 2019</timestamp>
+</msg>
+<msg id="92" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\bcryptprimitives.dll</arg>
+  <arg>0x74a40000</arg>
+  <arg>0x74a97fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:08 2019</timestamp>
+</msg>
+<msg id="93" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10932,1968,7624</arg>
+  <arg>1,1,1</arg>
+  <arg>3331,468,59</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:08 2019</timestamp>
+</msg>
+<msg id="94" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\sechost.dll</arg>
+  <arg>0x74680000</arg>
+  <arg>0x746c3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:08 2019</timestamp>
+</msg>
+<msg id="95" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="96" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Users\Volosov\source\repos\IPS_lab2\Debug\IPS_lab2.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="97" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\KernelBase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="98" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="99" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="100" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ucrtbased.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="101" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\vcruntime140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="102" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="103" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\user32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="104" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\win32u.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="105" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\gdi32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="106" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\gdi32full.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="107" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcp_win.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="108" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ucrtbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="109" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="110" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\imm32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="111" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin32\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="112" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="113" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="114" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="115" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\sspicli.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="116" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\cryptbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="117" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\bcryptprimitives.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="118" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\sechost.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="119" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Thu Oct 31 11:26:09 2019</timestamp>
+</msg>
+<msg id="120" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="121" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r004mi2\r004mi2.inspxe</arg>
+</msg>
+<msg id="122" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="123" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/10/31 11:26:13</arg>
+</msg>
+
+</log>
+

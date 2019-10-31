@@ -1,0 +1,57 @@
+
+=== Start: [2019/10/30 12:13:18] === 
+Analysis started...
+Result file: C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r002mi2\r002mi2.inspxe 
+Analysis started for c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe (pid = 12556) 
+Loaded module: c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe, address range [0xec0000-0xed2fff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x73b50000-0x73d33fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76970000-0x76a4ffff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77260000-0x773effff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xfd80000-0xfe36fff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xff60000-0x100d3fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xf4f0000-0xf50afff] 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll, address range [0xf900000-0xf947fff], minimal analysis 
+Loaded module: c:\windows\syswow64\user32.dll, address range [0x760b0000-0x7623cfff], minimal analysis 
+Loaded module: c:\windows\syswow64\win32u.dll, address range [0x75400000-0x75416fff] 
+Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x76080000-0x760a1fff] 
+Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x76ab0000-0x76c13fff], minimal analysis 
+Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x76fa0000-0x7701cfff] 
+Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x73dd0000-0x73eedfff] 
+Loaded module: c:\windows\syswow64\imm32.dll, address range [0x753d0000-0x753f5fff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll, address range [0xf5c0000-0xf5ecfff], minimal analysis 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x76c80000-0x76c8efff] 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x76ee0000-0x76f9efff] 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x75530000-0x755effff] 
+Loaded module: c:\windows\syswow64\sspicli.dll, address range [0x73b20000-0x73b3ffff], minimal analysis 
+Loaded module: c:\windows\syswow64\cryptbase.dll, address range [0x73b10000-0x73b19fff] 
+Loaded module: c:\windows\syswow64\bcryptprimitives.dll, address range [0x76a50000-0x76aa7fff], minimal analysis 
+Loaded module: c:\windows\syswow64\sechost.dll, address range [0x768d0000-0x76913fff] 
+Process c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: C:\Users\Volosov\source\repos\IPS_lab2\Debug\IPS_lab2.exe 
+Unloaded module: C:\Windows\SysWOW64\KernelBase.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel32.dll 
+Unloaded module: C:\Windows\SysWOW64\ntdll.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll 
+Unloaded module: C:\Windows\SysWOW64\user32.dll 
+Unloaded module: C:\Windows\SysWOW64\win32u.dll 
+Unloaded module: C:\Windows\SysWOW64\gdi32.dll 
+Unloaded module: C:\Windows\SysWOW64\gdi32full.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcp_win.dll 
+Unloaded module: C:\Windows\SysWOW64\ucrtbase.dll 
+Unloaded module: C:\Windows\SysWOW64\imm32.dll 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin32\runtime\libittnotify.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcrt.dll 
+Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll 
+Unloaded module: C:\Windows\SysWOW64\sspicli.dll 
+Unloaded module: C:\Windows\SysWOW64\cryptbase.dll 
+Unloaded module: C:\Windows\SysWOW64\bcryptprimitives.dll 
+Unloaded module: C:\Windows\SysWOW64\sechost.dll 
+Completed analysis for c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe 
+Application exit code: 0 
+Result file: C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r002mi2\r002mi2.inspxe 
+Analysis completed
+=== End: [2019/10/30 12:23:40] === 

@@ -1,0 +1,294 @@
+8635	?TestMethod@@YA_N_N@Z:
+8635	push ebp
+8636	mov ebp, esp
+8638	sub esp, 0x64
+8641	push eax
+8642	push edi
+8643	push ecx
+8644	lea edi, ptr [ebp-0x64]
+8647	mov ecx, 0x19
+8652	mov eax, 0xcccccccc
+8657	rep stosd dword ptr [edi]
+8659	pop ecx
+8660	pop edi
+8661	pop eax
+8662	mov dword ptr [ebp-0x30], edi
+8665	mov dword ptr [ebp-0x34], esi
+8668	mov eax, dword ptr [0x40d004]
+8673	xor eax, ebp
+8675	mov dword ptr [ebp-0x4], eax
+8678	mov byte ptr [ebp-0x5f], 0x0
+8682	mov byte ptr [ebp-0x61], 0x0
+8686	mov byte ptr [ebp-0x60], 0x0
+8690	mov byte ptr [ebp-0x62], 0x0
+8694	mov byte ptr [ebp-0x63], 0x0
+8698	mov byte ptr [ebp-0x64], 0x0
+8702	mov byte ptr [ebp-0x64], 0x1
+8706	mov dword ptr [ebp-0x5c], 0x4
+8713	lea eax, ptr [ebp-0x28]
+8716	mov edx, 0x40ac40
+8721	mov ecx, 0x20
+8726	mov edi, eax
+8728	mov esi, edx
+8730	mov eax, ecx
+8732	shr ecx, 0x2
+8735	rep movsd dword ptr [edi], dword ptr [esi]
+8737	mov ecx, eax
+8739	and ecx, 0x3
+8742	rep movsb byte ptr [edi], byte ptr [esi]
+8744	push eax
+8745	mov dword ptr [esp], 0x10
+8752	call 0x10aa
+8757	mov dword ptr [ebp-0x58], eax
+8760	add esp, 0x4
+8763	mov byte ptr [ebp-0x63], 0x1
+8767	mov eax, dword ptr [ebp-0x58]
+8770	mov dword ptr [ebp-0x54], eax
+8773	push eax
+8774	mov dword ptr [esp], 0x20
+8781	call 0x10aa
+8786	mov dword ptr [ebp-0x50], eax
+8789	add esp, 0x4
+8792	mov byte ptr [ebp-0x62], 0x1
+8796	mov eax, dword ptr [ebp-0x50]
+8799	mov dword ptr [ebp-0x4c], eax
+8802	mov byte ptr [ebp-0x61], 0x1
+8806	mov dword ptr [ebp-0x48], 0x0
+8813	mov eax, dword ptr [ebp-0x48]
+8816	cmp eax, 0x4
+8819	jnl 0x22a7
+8821	push eax
+8822	mov dword ptr [esp], 0x28
+8829	call 0x10aa
+8834	mov dword ptr [ebp-0x44], eax
+8837	add esp, 0x4
+8840	mov eax, dword ptr [ebp-0x48]
+8843	imul eax, eax, 0x4
+8846	add eax, dword ptr [ebp-0x54]
+8849	mov edx, dword ptr [ebp-0x44]
+8852	mov dword ptr [eax], edx
+8854	mov byte ptr [ebp-0x61], 0x1
+8858	mov eax, 0x1
+8863	add eax, dword ptr [ebp-0x48]
+8866	mov dword ptr [ebp-0x48], eax
+8869	jmp 0x226d
+8871	movsd xmm0, qword ptr [0x40aba8]
+8879	mov eax, dword ptr [ebp-0x54]
+8882	mov eax, dword ptr [eax]
+8884	movsd qword ptr [eax], xmm0
+8888	movsd xmm0, qword ptr [0x40abb0]
+8896	mov eax, dword ptr [ebp-0x54]
+8899	mov edx, 0x8
+8904	add edx, dword ptr [eax]
+8906	movsd qword ptr [edx], xmm0
+8910	movsd xmm0, qword ptr [0x40abb8]
+8918	mov eax, dword ptr [ebp-0x54]
+8921	mov edx, 0x10
+8926	add edx, dword ptr [eax]
+8928	movsd qword ptr [edx], xmm0
+8932	movsd xmm0, qword ptr [0x40ac08]
+8940	mov eax, dword ptr [ebp-0x54]
+8943	mov edx, 0x18
+8948	add edx, dword ptr [eax]
+8950	movsd qword ptr [edx], xmm0
+8954	movsd xmm0, qword ptr [0x40abc0]
+8962	mov eax, dword ptr [ebp-0x54]
+8965	mov edx, 0x20
+8970	add edx, dword ptr [eax]
+8972	movsd qword ptr [edx], xmm0
+8976	movsd xmm0, qword ptr [0x40ac08]
+8984	mov eax, 0x4
+8989	add eax, dword ptr [ebp-0x54]
+8992	mov eax, dword ptr [eax]
+8994	movsd qword ptr [eax], xmm0
+8998	movsd xmm0, qword ptr [0x40abc8]
+9006	mov eax, 0x4
+9011	add eax, dword ptr [ebp-0x54]
+9014	mov edx, 0x8
+9019	add edx, dword ptr [eax]
+9021	movsd qword ptr [edx], xmm0
+9025	movsd xmm0, qword ptr [0x40aba8]
+9033	mov eax, 0x4
+9038	add eax, dword ptr [ebp-0x54]
+9041	mov edx, 0x10
+9046	add edx, dword ptr [eax]
+9048	movsd qword ptr [edx], xmm0
+9052	movsd xmm0, qword ptr [0x40ac08]
+9060	mov eax, 0x4
+9065	add eax, dword ptr [ebp-0x54]
+9068	mov edx, 0x18
+9073	add edx, dword ptr [eax]
+9075	movsd qword ptr [edx], xmm0
+9079	movsd xmm0, qword ptr [0x40abd0]
+9087	mov eax, 0x4
+9092	add eax, dword ptr [ebp-0x54]
+9095	mov edx, 0x20
+9100	add edx, dword ptr [eax]
+9102	movsd qword ptr [edx], xmm0
+9106	movsd xmm0, qword ptr [0x40aba8]
+9114	mov eax, 0x8
+9119	add eax, dword ptr [ebp-0x54]
+9122	mov eax, dword ptr [eax]
+9124	movsd qword ptr [eax], xmm0
+9128	movsd xmm0, qword ptr [0x40abd8]
+9136	mov eax, 0x8
+9141	add eax, dword ptr [ebp-0x54]
+9144	mov edx, 0x8
+9149	add edx, dword ptr [eax]
+9151	movsd qword ptr [edx], xmm0
+9155	movsd xmm0, qword ptr [0x40abe0]
+9163	mov eax, 0x8
+9168	add eax, dword ptr [ebp-0x54]
+9171	mov edx, 0x10
+9176	add edx, dword ptr [eax]
+9178	movsd qword ptr [edx], xmm0
+9182	movsd xmm0, qword ptr [0x40abe8]
+9190	mov eax, 0x8
+9195	add eax, dword ptr [ebp-0x54]
+9198	mov edx, 0x18
+9203	add edx, dword ptr [eax]
+9205	movsd qword ptr [edx], xmm0
+9209	movsd xmm0, qword ptr [0x40abf0]
+9217	mov eax, 0x8
+9222	add eax, dword ptr [ebp-0x54]
+9225	mov edx, 0x20
+9230	add edx, dword ptr [eax]
+9232	movsd qword ptr [edx], xmm0
+9236	movsd xmm0, qword ptr [0x40abc8]
+9244	mov eax, 0xc
+9249	add eax, dword ptr [ebp-0x54]
+9252	mov eax, dword ptr [eax]
+9254	movsd qword ptr [eax], xmm0
+9258	movsd xmm0, qword ptr [0x40abf8]
+9266	mov eax, 0xc
+9271	add eax, dword ptr [ebp-0x54]
+9274	mov edx, 0x8
+9279	add edx, dword ptr [eax]
+9281	movsd qword ptr [edx], xmm0
+9285	movsd xmm0, qword ptr [0x40abe0]
+9293	mov eax, 0xc
+9298	add eax, dword ptr [ebp-0x54]
+9301	mov edx, 0x10
+9306	add edx, dword ptr [eax]
+9308	movsd qword ptr [edx], xmm0
+9312	movsd xmm0, qword ptr [0x40aba8]
+9320	mov eax, 0xc
+9325	add eax, dword ptr [ebp-0x54]
+9328	mov edx, 0x18
+9333	add edx, dword ptr [eax]
+9335	movsd qword ptr [edx], xmm0
+9339	movsd xmm0, qword ptr [0x40ac00]
+9347	mov eax, 0xc
+9352	add eax, dword ptr [ebp-0x54]
+9355	mov edx, 0x20
+9360	add edx, dword ptr [eax]
+9362	movsd qword ptr [edx], xmm0
+9366	movzx eax, byte ptr [ebp+0x8]
+9370	movzx eax, al
+9373	test eax, eax
+9375	jz 0x24c3
+9377	add esp, 0xfffffff4
+9380	mov eax, dword ptr [ebp-0x54]
+9383	mov dword ptr [esp], eax
+9386	mov dword ptr [esp+0x4], 0x4
+9394	mov eax, dword ptr [ebp-0x4c]
+9397	mov dword ptr [esp+0x8], eax
+9401	call 0x1b18 <?ParallelGaussMethod@@YAXPAPANHPAN@Z>
+9406	add esp, 0xc
+9409	jmp 0x24e3
+9411	add esp, 0xfffffff4
+9414	mov eax, dword ptr [ebp-0x54]
+9417	mov dword ptr [esp], eax
+9420	mov dword ptr [esp+0x4], 0x4
+9428	mov eax, dword ptr [ebp-0x4c]
+9431	mov dword ptr [esp+0x8], eax
+9435	call 0x1896 <?SerialGaussMethod@@YAXPAPANHPAN@Z>
+9440	add esp, 0xc
+9443	add esp, 0xfffffff8
+9446	mov eax, dword ptr [ebp-0x4c]
+9449	mov dword ptr [esp], eax
+9452	mov dword ptr [esp+0x4], 0x4
+9460	call 0x20c1 <?PrintResults@@YAXPANH@Z>
+9465	add esp, 0x8
+9468	mov byte ptr [ebp-0x60], 0x1
+9472	mov byte ptr [ebp-0x5e], 0x1
+9476	mov byte ptr [ebp-0x5f], 0x1
+9480	mov dword ptr [ebp-0x40], 0x0
+9487	mov eax, dword ptr [ebp-0x40]
+9490	cmp eax, 0x4
+9493	jl 0x252d
+9495	jmp 0x25a7
+9500	mov byte ptr [ebp-0x5f], 0x1
+9504	mov eax, 0x1
+9509	add eax, dword ptr [ebp-0x40]
+9512	mov dword ptr [ebp-0x40], eax
+9515	jmp 0x250f
+9517	mov eax, dword ptr [ebp-0x40]
+9520	imul eax, eax, 0x8
+9523	add eax, dword ptr [ebp-0x4c]
+9526	movsd xmm0, qword ptr [eax]
+9530	lea eax, ptr [ebp-0x28]
+9533	mov edx, dword ptr [ebp-0x40]
+9536	imul edx, edx, 0x8
+9539	add eax, edx
+9541	movsd xmm1, qword ptr [eax]
+9545	ucomisd xmm0, xmm1
+9549	jp 0x2551
+9551	jz 0x251c
+9553	add esp, 0xffffffe8
+9556	mov dword ptr [esp], 0x40f060
+9563	mov eax, 0x1
+9568	add eax, dword ptr [ebp-0x40]
+9571	mov dword ptr [esp+0x4], eax
+9575	mov eax, dword ptr [ebp-0x40]
+9578	imul eax, eax, 0x8
+9581	add eax, dword ptr [ebp-0x4c]
+9584	movsd xmm0, qword ptr [eax]
+9588	movsd qword ptr [esp+0x8], xmm0
+9594	lea eax, ptr [ebp-0x28]
+9597	mov edx, dword ptr [ebp-0x40]
+9600	imul edx, edx, 0x8
+9603	add eax, edx
+9605	movsd xmm0, qword ptr [eax]
+9609	movsd qword ptr [esp+0x10], xmm0
+9615	call 0x1037
+9620	mov dword ptr [ebp-0x3c], eax
+9623	add esp, 0x18
+9626	mov byte ptr [ebp-0x60], 0x1
+9630	mov byte ptr [ebp-0x5e], 0x0
+9634	jmp 0x251c
+9639	add esp, 0xfffffff8
+9642	mov eax, dword ptr [ebp-0x54]
+9645	mov dword ptr [esp], eax
+9648	mov dword ptr [esp+0x4], 0x4
+9656	call 0x2145 <?DeleteMatrix@@YAXPAPANH@Z>
+9661	add esp, 0x8
+9664	add esp, 0xfffffff8
+9667	mov eax, dword ptr [ebp-0x4c]
+9670	mov dword ptr [esp], eax
+9673	mov dword ptr [esp+0x4], 0x8
+9681	call 0x1069
+9686	add esp, 0x8
+9689	movzx eax, byte ptr [ebp-0x5e]
+9693	mov dword ptr [ebp-0x38], eax
+9696	mov eax, 0x40ac10
+9701	mov edx, eax
+9703	mov ecx, ebp
+9705	push edx
+9706	push eax
+9707	call 0x1208
+9712	pop eax
+9713	pop edx
+9714	mov eax, dword ptr [ebp-0x4]
+9717	mov dword ptr [ebp-0x4], 0x0
+9724	xor eax, ebp
+9726	mov ecx, eax
+9728	call 0x11a9
+9733	mov eax, dword ptr [ebp-0x38]
+9736	mov esi, dword ptr [ebp-0x34]
+9739	mov edi, dword ptr [ebp-0x30]
+9742	add esp, 0x64
+9745	cmp ebp, esp
+9747	call 0x11e5
+9752	leave 
+9753	ret 

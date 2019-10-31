@@ -1,0 +1,15 @@
+-r
+C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\VTune Amplifier Results\IPS_lab2\r003hs
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet,python
+--itt-config=frame
+--itt-config=task,event,counter
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:stack
+--interval=10
+--
+C:\Users\Volosov\source\repos\IPS_lab2\Debug\IPS_lab2.exe

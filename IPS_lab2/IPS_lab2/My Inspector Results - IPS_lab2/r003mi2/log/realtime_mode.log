@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r003mi2\r003mi2.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe (pid = 13260) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe, address range [0x390000-0x3a2fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x73e20000-0x74003fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x75e10000-0x75eeffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77540000-0x776cffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc570000-0xc58afff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc5d0000-0xc743fff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xf5f0000-0xf6a6fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll, address range [0xf330000-0xf377fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\user32.dll, address range [0x750c0000-0x7524cfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\win32u.dll, address range [0x74f50000-0x74f66fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x74930000-0x74951fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x747c0000-0x74923fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x75250000-0x752ccfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x75ef0000-0x7600dfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xf2b0000-0xf2cafff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xcc80000-0xcdf3fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\imm32.dll, address range [0x75d20000-0x75d45fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll, address range [0xed20000-0xed4cfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin32\runtime\libittnotify.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll, address range [0xff00000-0xff2cfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Application exit code: 1 </message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r003mi2\r003mi2.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis canceled by user</message>
+ <nop/>
+</feedback>

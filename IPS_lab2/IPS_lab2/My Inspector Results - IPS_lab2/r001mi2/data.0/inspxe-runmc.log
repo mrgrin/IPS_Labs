@@ -1,0 +1,3245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/10/30 11:48:55</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r001mi2\r001mi2.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</arg>
+  <arg>2836</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:55 2019</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</arg>
+  <arg>0x180000</arg>
+  <arg>0x192fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:55 2019</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x73b50000</arg>
+  <arg>0x73d33fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:55 2019</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x76970000</arg>
+  <arg>0x76a4ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:55 2019</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77260000</arg>
+  <arg>0x773effff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:55 2019</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0xfee0000</arg>
+  <arg>0x10053fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:56 2019</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0x50c70000</arg>
+  <arg>0x50c8afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:56 2019</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140d.dll</arg>
+  <arg>0xf800000</arg>
+  <arg>0xf8b6fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll</arg>
+  <arg>0xc890000</arg>
+  <arg>0xc8d7fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll</arg>
+  <arg>0xfdd0000</arg>
+  <arg>0xfe17fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\user32.dll</arg>
+  <arg>0x760b0000</arg>
+  <arg>0x7623cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\win32u.dll</arg>
+  <arg>0x75400000</arg>
+  <arg>0x75416fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\gdi32.dll</arg>
+  <arg>0x76080000</arg>
+  <arg>0x760a1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\gdi32full.dll</arg>
+  <arg>0x76ab0000</arg>
+  <arg>0x76c13fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp_win.dll</arg>
+  <arg>0x76fa0000</arg>
+  <arg>0x7701cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>0x73dd0000</arg>
+  <arg>0x73eedfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:57 2019</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\imm32.dll</arg>
+  <arg>0x753d0000</arg>
+  <arg>0x753f5fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:48:59 2019</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll</arg>
+  <arg>0xfc40000</arg>
+  <arg>0xfc6cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:00 2019</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>1195492,1718,894,1448</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:01 2019</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>8448710,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:02 2019</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>8477668,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:03 2019</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>8462814,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:04 2019</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>8634244,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:05 2019</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>8508880,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:06 2019</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>8570552,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:07 2019</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>8522134,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:08 2019</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>8486038,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:09 2019</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7086260,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:10 2019</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7019591,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:11 2019</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7084916,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:12 2019</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7171654,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:13 2019</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7136251,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:14 2019</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7206502,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:15 2019</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7084595,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:16 2019</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7067776,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:17 2019</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7084139,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:18 2019</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7228660,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:19 2019</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7086058,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:20 2019</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>6889479,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:21 2019</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>6957783,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:22 2019</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7157469,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:23 2019</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7233001,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:24 2019</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7084722,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:25 2019</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7103149,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:26 2019</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7080516,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:27 2019</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7097098,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:28 2019</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7181221,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:29 2019</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7067322,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:30 2019</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7178376,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:31 2019</timestamp>
+</msg>
+<msg id="54" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7124636,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:32 2019</timestamp>
+</msg>
+<msg id="55" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7199005,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:33 2019</timestamp>
+</msg>
+<msg id="56" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7303198,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:34 2019</timestamp>
+</msg>
+<msg id="57" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7091768,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:35 2019</timestamp>
+</msg>
+<msg id="58" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7108502,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:36 2019</timestamp>
+</msg>
+<msg id="59" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7063275,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:37 2019</timestamp>
+</msg>
+<msg id="60" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7123836,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:38 2019</timestamp>
+</msg>
+<msg id="61" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7199444,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:39 2019</timestamp>
+</msg>
+<msg id="62" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7058233,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:40 2019</timestamp>
+</msg>
+<msg id="63" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7135481,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:41 2019</timestamp>
+</msg>
+<msg id="64" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7076896,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:42 2019</timestamp>
+</msg>
+<msg id="65" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7135611,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:43 2019</timestamp>
+</msg>
+<msg id="66" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7222795,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:44 2019</timestamp>
+</msg>
+<msg id="67" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7143316,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:45 2019</timestamp>
+</msg>
+<msg id="68" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7145821,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:46 2019</timestamp>
+</msg>
+<msg id="69" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7139366,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:47 2019</timestamp>
+</msg>
+<msg id="70" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7109056,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:48 2019</timestamp>
+</msg>
+<msg id="71" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>6887336,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:49 2019</timestamp>
+</msg>
+<msg id="72" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7182943,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:50 2019</timestamp>
+</msg>
+<msg id="73" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7022208,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:51 2019</timestamp>
+</msg>
+<msg id="74" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7104857,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:52 2019</timestamp>
+</msg>
+<msg id="75" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7077241,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:53 2019</timestamp>
+</msg>
+<msg id="76" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7055262,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:54 2019</timestamp>
+</msg>
+<msg id="77" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308,1564,15076,3228</arg>
+  <arg>0,1,1,1</arg>
+  <arg>7048286,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:55 2019</timestamp>
+</msg>
+<msg id="78" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7138493</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:56 2019</timestamp>
+</msg>
+<msg id="79" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7087587</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:57 2019</timestamp>
+</msg>
+<msg id="80" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7048821</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:58 2019</timestamp>
+</msg>
+<msg id="81" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7203048</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:49:59 2019</timestamp>
+</msg>
+<msg id="82" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7150078</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:00 2019</timestamp>
+</msg>
+<msg id="83" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7062257</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:01 2019</timestamp>
+</msg>
+<msg id="84" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7122810</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:02 2019</timestamp>
+</msg>
+<msg id="85" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7103053</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:03 2019</timestamp>
+</msg>
+<msg id="86" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7107387</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:04 2019</timestamp>
+</msg>
+<msg id="87" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7106076</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:05 2019</timestamp>
+</msg>
+<msg id="88" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7153241</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:06 2019</timestamp>
+</msg>
+<msg id="89" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7199611</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:07 2019</timestamp>
+</msg>
+<msg id="90" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7009185</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:08 2019</timestamp>
+</msg>
+<msg id="91" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6908530</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:09 2019</timestamp>
+</msg>
+<msg id="92" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7077124</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:10 2019</timestamp>
+</msg>
+<msg id="93" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7167312</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:11 2019</timestamp>
+</msg>
+<msg id="94" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7197088</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:12 2019</timestamp>
+</msg>
+<msg id="95" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7081691</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:13 2019</timestamp>
+</msg>
+<msg id="96" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7068696</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:14 2019</timestamp>
+</msg>
+<msg id="97" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7064243</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:15 2019</timestamp>
+</msg>
+<msg id="98" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7076446</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:16 2019</timestamp>
+</msg>
+<msg id="99" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7129985</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:17 2019</timestamp>
+</msg>
+<msg id="100" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7087419</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:18 2019</timestamp>
+</msg>
+<msg id="101" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7105293</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:19 2019</timestamp>
+</msg>
+<msg id="102" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7049195</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:20 2019</timestamp>
+</msg>
+<msg id="103" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7103945</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:21 2019</timestamp>
+</msg>
+<msg id="104" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7187292</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:22 2019</timestamp>
+</msg>
+<msg id="105" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7159484</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:23 2019</timestamp>
+</msg>
+<msg id="106" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7120249</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:24 2019</timestamp>
+</msg>
+<msg id="107" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7162265</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:25 2019</timestamp>
+</msg>
+<msg id="108" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7124185</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:26 2019</timestamp>
+</msg>
+<msg id="109" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7286017</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:27 2019</timestamp>
+</msg>
+<msg id="110" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7146095</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:28 2019</timestamp>
+</msg>
+<msg id="111" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7040686</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:29 2019</timestamp>
+</msg>
+<msg id="112" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7020463</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:30 2019</timestamp>
+</msg>
+<msg id="113" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6931152</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:31 2019</timestamp>
+</msg>
+<msg id="114" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6935248</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:32 2019</timestamp>
+</msg>
+<msg id="115" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6904600</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:33 2019</timestamp>
+</msg>
+<msg id="116" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6993975</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:34 2019</timestamp>
+</msg>
+<msg id="117" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6918648</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:35 2019</timestamp>
+</msg>
+<msg id="118" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6936253</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:36 2019</timestamp>
+</msg>
+<msg id="119" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6968988</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:37 2019</timestamp>
+</msg>
+<msg id="120" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6767020</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:38 2019</timestamp>
+</msg>
+<msg id="121" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6896036</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:39 2019</timestamp>
+</msg>
+<msg id="122" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6930740</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:40 2019</timestamp>
+</msg>
+<msg id="123" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6894947</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:41 2019</timestamp>
+</msg>
+<msg id="124" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6987263</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:42 2019</timestamp>
+</msg>
+<msg id="125" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6915083</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:43 2019</timestamp>
+</msg>
+<msg id="126" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6940133</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:44 2019</timestamp>
+</msg>
+<msg id="127" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7004627</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:45 2019</timestamp>
+</msg>
+<msg id="128" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6986500</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:46 2019</timestamp>
+</msg>
+<msg id="129" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7014137</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:47 2019</timestamp>
+</msg>
+<msg id="130" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6961587</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:48 2019</timestamp>
+</msg>
+<msg id="131" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6866444</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:49 2019</timestamp>
+</msg>
+<msg id="132" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6863528</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:50 2019</timestamp>
+</msg>
+<msg id="133" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6975466</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:51 2019</timestamp>
+</msg>
+<msg id="134" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6914501</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:52 2019</timestamp>
+</msg>
+<msg id="135" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6949306</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:53 2019</timestamp>
+</msg>
+<msg id="136" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6970116</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:54 2019</timestamp>
+</msg>
+<msg id="137" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6899374</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:55 2019</timestamp>
+</msg>
+<msg id="138" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7003423</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:56 2019</timestamp>
+</msg>
+<msg id="139" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7013788</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:57 2019</timestamp>
+</msg>
+<msg id="140" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6986516</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:58 2019</timestamp>
+</msg>
+<msg id="141" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7079334</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:50:59 2019</timestamp>
+</msg>
+<msg id="142" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7016258</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:00 2019</timestamp>
+</msg>
+<msg id="143" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6965973</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:01 2019</timestamp>
+</msg>
+<msg id="144" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6855737</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:02 2019</timestamp>
+</msg>
+<msg id="145" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6798067</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:03 2019</timestamp>
+</msg>
+<msg id="146" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6698221</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:04 2019</timestamp>
+</msg>
+<msg id="147" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6669029</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:05 2019</timestamp>
+</msg>
+<msg id="148" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6607577</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:06 2019</timestamp>
+</msg>
+<msg id="149" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6743293</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:07 2019</timestamp>
+</msg>
+<msg id="150" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6709598</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:08 2019</timestamp>
+</msg>
+<msg id="151" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6721987</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:09 2019</timestamp>
+</msg>
+<msg id="152" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6709202</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:10 2019</timestamp>
+</msg>
+<msg id="153" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6755033</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:11 2019</timestamp>
+</msg>
+<msg id="154" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6735193</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:12 2019</timestamp>
+</msg>
+<msg id="155" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6728480</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:13 2019</timestamp>
+</msg>
+<msg id="156" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6722199</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:14 2019</timestamp>
+</msg>
+<msg id="157" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6849837</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:15 2019</timestamp>
+</msg>
+<msg id="158" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6856089</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:16 2019</timestamp>
+</msg>
+<msg id="159" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6664045</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:17 2019</timestamp>
+</msg>
+<msg id="160" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6715611</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:18 2019</timestamp>
+</msg>
+<msg id="161" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6691260</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:19 2019</timestamp>
+</msg>
+<msg id="162" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6675982</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:20 2019</timestamp>
+</msg>
+<msg id="163" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6670102</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:21 2019</timestamp>
+</msg>
+<msg id="164" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6529654</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:22 2019</timestamp>
+</msg>
+<msg id="165" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6662658</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:23 2019</timestamp>
+</msg>
+<msg id="166" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6722166</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:24 2019</timestamp>
+</msg>
+<msg id="167" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6513203</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:25 2019</timestamp>
+</msg>
+<msg id="168" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6702135</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:26 2019</timestamp>
+</msg>
+<msg id="169" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6659217</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:27 2019</timestamp>
+</msg>
+<msg id="170" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6690800</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:28 2019</timestamp>
+</msg>
+<msg id="171" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6832325</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:29 2019</timestamp>
+</msg>
+<msg id="172" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6780138</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:30 2019</timestamp>
+</msg>
+<msg id="173" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6699589</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:31 2019</timestamp>
+</msg>
+<msg id="174" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6652738</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:32 2019</timestamp>
+</msg>
+<msg id="175" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6640332</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:33 2019</timestamp>
+</msg>
+<msg id="176" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6677166</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:34 2019</timestamp>
+</msg>
+<msg id="177" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6708406</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:35 2019</timestamp>
+</msg>
+<msg id="178" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6716354</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:36 2019</timestamp>
+</msg>
+<msg id="179" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6660593</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:37 2019</timestamp>
+</msg>
+<msg id="180" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6670029</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:38 2019</timestamp>
+</msg>
+<msg id="181" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6776951</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:39 2019</timestamp>
+</msg>
+<msg id="182" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6478608</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:40 2019</timestamp>
+</msg>
+<msg id="183" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6704445</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:41 2019</timestamp>
+</msg>
+<msg id="184" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6672348</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:42 2019</timestamp>
+</msg>
+<msg id="185" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6635606</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:43 2019</timestamp>
+</msg>
+<msg id="186" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6552909</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:44 2019</timestamp>
+</msg>
+<msg id="187" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6770395</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:45 2019</timestamp>
+</msg>
+<msg id="188" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6806382</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:46 2019</timestamp>
+</msg>
+<msg id="189" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6906553</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:47 2019</timestamp>
+</msg>
+<msg id="190" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6835205</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:48 2019</timestamp>
+</msg>
+<msg id="191" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6910867</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:49 2019</timestamp>
+</msg>
+<msg id="192" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6792408</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:50 2019</timestamp>
+</msg>
+<msg id="193" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6940776</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:51 2019</timestamp>
+</msg>
+<msg id="194" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6995527</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:52 2019</timestamp>
+</msg>
+<msg id="195" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6720774</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:53 2019</timestamp>
+</msg>
+<msg id="196" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6492109</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:54 2019</timestamp>
+</msg>
+<msg id="197" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6624168</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:55 2019</timestamp>
+</msg>
+<msg id="198" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7106952</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:56 2019</timestamp>
+</msg>
+<msg id="199" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7222594</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:57 2019</timestamp>
+</msg>
+<msg id="200" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7143303</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:58 2019</timestamp>
+</msg>
+<msg id="201" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7195128</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:51:59 2019</timestamp>
+</msg>
+<msg id="202" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7176031</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:00 2019</timestamp>
+</msg>
+<msg id="203" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7243437</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:01 2019</timestamp>
+</msg>
+<msg id="204" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7305742</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:02 2019</timestamp>
+</msg>
+<msg id="205" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7357564</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:03 2019</timestamp>
+</msg>
+<msg id="206" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7356922</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:04 2019</timestamp>
+</msg>
+<msg id="207" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7292405</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:05 2019</timestamp>
+</msg>
+<msg id="208" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7282259</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:06 2019</timestamp>
+</msg>
+<msg id="209" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7282209</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:07 2019</timestamp>
+</msg>
+<msg id="210" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7227410</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:08 2019</timestamp>
+</msg>
+<msg id="211" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7295591</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:09 2019</timestamp>
+</msg>
+<msg id="212" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7160659</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:10 2019</timestamp>
+</msg>
+<msg id="213" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7154226</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:11 2019</timestamp>
+</msg>
+<msg id="214" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7186908</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:12 2019</timestamp>
+</msg>
+<msg id="215" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7300194</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:13 2019</timestamp>
+</msg>
+<msg id="216" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7208919</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:14 2019</timestamp>
+</msg>
+<msg id="217" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7227531</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:15 2019</timestamp>
+</msg>
+<msg id="218" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7305595</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:16 2019</timestamp>
+</msg>
+<msg id="219" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7218478</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:17 2019</timestamp>
+</msg>
+<msg id="220" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7197428</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:18 2019</timestamp>
+</msg>
+<msg id="221" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7203377</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:19 2019</timestamp>
+</msg>
+<msg id="222" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7171221</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:20 2019</timestamp>
+</msg>
+<msg id="223" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7203754</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:21 2019</timestamp>
+</msg>
+<msg id="224" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7207293</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:22 2019</timestamp>
+</msg>
+<msg id="225" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7234626</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:23 2019</timestamp>
+</msg>
+<msg id="226" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7215380</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:24 2019</timestamp>
+</msg>
+<msg id="227" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7199046</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:25 2019</timestamp>
+</msg>
+<msg id="228" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7197065</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:26 2019</timestamp>
+</msg>
+<msg id="229" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7228011</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:27 2019</timestamp>
+</msg>
+<msg id="230" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7273440</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:28 2019</timestamp>
+</msg>
+<msg id="231" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7252503</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:29 2019</timestamp>
+</msg>
+<msg id="232" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7207507</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:30 2019</timestamp>
+</msg>
+<msg id="233" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7219950</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:31 2019</timestamp>
+</msg>
+<msg id="234" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7212350</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:32 2019</timestamp>
+</msg>
+<msg id="235" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7206086</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:33 2019</timestamp>
+</msg>
+<msg id="236" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7194113</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:34 2019</timestamp>
+</msg>
+<msg id="237" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7242637</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:35 2019</timestamp>
+</msg>
+<msg id="238" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7184489</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:36 2019</timestamp>
+</msg>
+<msg id="239" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7225838</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:37 2019</timestamp>
+</msg>
+<msg id="240" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7212721</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:38 2019</timestamp>
+</msg>
+<msg id="241" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7247374</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:39 2019</timestamp>
+</msg>
+<msg id="242" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7181453</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:40 2019</timestamp>
+</msg>
+<msg id="243" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7161531</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:41 2019</timestamp>
+</msg>
+<msg id="244" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7202172</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:42 2019</timestamp>
+</msg>
+<msg id="245" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7182775</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:43 2019</timestamp>
+</msg>
+<msg id="246" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7171074</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:44 2019</timestamp>
+</msg>
+<msg id="247" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7298420</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:45 2019</timestamp>
+</msg>
+<msg id="248" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7282726</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:46 2019</timestamp>
+</msg>
+<msg id="249" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7299398</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:47 2019</timestamp>
+</msg>
+<msg id="250" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7319419</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:48 2019</timestamp>
+</msg>
+<msg id="251" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6960387</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:49 2019</timestamp>
+</msg>
+<msg id="252" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7108748</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:50 2019</timestamp>
+</msg>
+<msg id="253" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7160104</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:51 2019</timestamp>
+</msg>
+<msg id="254" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7243573</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:52 2019</timestamp>
+</msg>
+<msg id="255" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7364971</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:53 2019</timestamp>
+</msg>
+<msg id="256" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7296741</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:54 2019</timestamp>
+</msg>
+<msg id="257" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7197882</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:55 2019</timestamp>
+</msg>
+<msg id="258" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7281087</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:56 2019</timestamp>
+</msg>
+<msg id="259" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7034437</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:57 2019</timestamp>
+</msg>
+<msg id="260" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6952942</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:58 2019</timestamp>
+</msg>
+<msg id="261" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7014419</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:52:59 2019</timestamp>
+</msg>
+<msg id="262" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6869680</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:00 2019</timestamp>
+</msg>
+<msg id="263" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6359486</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:01 2019</timestamp>
+</msg>
+<msg id="264" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6829595</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:02 2019</timestamp>
+</msg>
+<msg id="265" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6338952</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:03 2019</timestamp>
+</msg>
+<msg id="266" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6882325</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:04 2019</timestamp>
+</msg>
+<msg id="267" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6461082</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:05 2019</timestamp>
+</msg>
+<msg id="268" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6562493</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:06 2019</timestamp>
+</msg>
+<msg id="269" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6811234</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:07 2019</timestamp>
+</msg>
+<msg id="270" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6789010</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:08 2019</timestamp>
+</msg>
+<msg id="271" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6850038</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:09 2019</timestamp>
+</msg>
+<msg id="272" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6939635</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:10 2019</timestamp>
+</msg>
+<msg id="273" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6780148</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:11 2019</timestamp>
+</msg>
+<msg id="274" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6896459</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:12 2019</timestamp>
+</msg>
+<msg id="275" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6998227</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:13 2019</timestamp>
+</msg>
+<msg id="276" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6810535</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:14 2019</timestamp>
+</msg>
+<msg id="277" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6819177</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:15 2019</timestamp>
+</msg>
+<msg id="278" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6801534</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:16 2019</timestamp>
+</msg>
+<msg id="279" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6985680</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:17 2019</timestamp>
+</msg>
+<msg id="280" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6953825</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:18 2019</timestamp>
+</msg>
+<msg id="281" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7008513</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:19 2019</timestamp>
+</msg>
+<msg id="282" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7046149</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:20 2019</timestamp>
+</msg>
+<msg id="283" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7031090</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:21 2019</timestamp>
+</msg>
+<msg id="284" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7053154</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:22 2019</timestamp>
+</msg>
+<msg id="285" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6870536</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:23 2019</timestamp>
+</msg>
+<msg id="286" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6988953</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:24 2019</timestamp>
+</msg>
+<msg id="287" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6991794</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:25 2019</timestamp>
+</msg>
+<msg id="288" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7087756</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:26 2019</timestamp>
+</msg>
+<msg id="289" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7047340</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:27 2019</timestamp>
+</msg>
+<msg id="290" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7109388</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:28 2019</timestamp>
+</msg>
+<msg id="291" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7099766</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:29 2019</timestamp>
+</msg>
+<msg id="292" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7117371</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:30 2019</timestamp>
+</msg>
+<msg id="293" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7097705</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:31 2019</timestamp>
+</msg>
+<msg id="294" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6954286</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:32 2019</timestamp>
+</msg>
+<msg id="295" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6971025</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:33 2019</timestamp>
+</msg>
+<msg id="296" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7117861</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:34 2019</timestamp>
+</msg>
+<msg id="297" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7113034</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:35 2019</timestamp>
+</msg>
+<msg id="298" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6800445</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:36 2019</timestamp>
+</msg>
+<msg id="299" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6970315</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:37 2019</timestamp>
+</msg>
+<msg id="300" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6995461</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:38 2019</timestamp>
+</msg>
+<msg id="301" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7044405</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:39 2019</timestamp>
+</msg>
+<msg id="302" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7029343</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:40 2019</timestamp>
+</msg>
+<msg id="303" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7039835</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:41 2019</timestamp>
+</msg>
+<msg id="304" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7078982</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:42 2019</timestamp>
+</msg>
+<msg id="305" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7108295</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:43 2019</timestamp>
+</msg>
+<msg id="306" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7088217</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:44 2019</timestamp>
+</msg>
+<msg id="307" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6951403</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:45 2019</timestamp>
+</msg>
+<msg id="308" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7085714</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:46 2019</timestamp>
+</msg>
+<msg id="309" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7051131</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:47 2019</timestamp>
+</msg>
+<msg id="310" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6996858</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:48 2019</timestamp>
+</msg>
+<msg id="311" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7009832</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:49 2019</timestamp>
+</msg>
+<msg id="312" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6926345</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:50 2019</timestamp>
+</msg>
+<msg id="313" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7011026</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:51 2019</timestamp>
+</msg>
+<msg id="314" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7047481</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:52 2019</timestamp>
+</msg>
+<msg id="315" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6799412</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:53 2019</timestamp>
+</msg>
+<msg id="316" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7078333</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:54 2019</timestamp>
+</msg>
+<msg id="317" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7071857</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:55 2019</timestamp>
+</msg>
+<msg id="318" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7018327</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:56 2019</timestamp>
+</msg>
+<msg id="319" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6645517</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:57 2019</timestamp>
+</msg>
+<msg id="320" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6745215</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:58 2019</timestamp>
+</msg>
+<msg id="321" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6932522</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:53:59 2019</timestamp>
+</msg>
+<msg id="322" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7006782</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:00 2019</timestamp>
+</msg>
+<msg id="323" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6998356</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:01 2019</timestamp>
+</msg>
+<msg id="324" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7079332</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:02 2019</timestamp>
+</msg>
+<msg id="325" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6912177</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:03 2019</timestamp>
+</msg>
+<msg id="326" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6903451</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:04 2019</timestamp>
+</msg>
+<msg id="327" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6968053</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:05 2019</timestamp>
+</msg>
+<msg id="328" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7058223</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:06 2019</timestamp>
+</msg>
+<msg id="329" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6977405</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:07 2019</timestamp>
+</msg>
+<msg id="330" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7068457</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:08 2019</timestamp>
+</msg>
+<msg id="331" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7109520</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:09 2019</timestamp>
+</msg>
+<msg id="332" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7096927</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:10 2019</timestamp>
+</msg>
+<msg id="333" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7093228</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:11 2019</timestamp>
+</msg>
+<msg id="334" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7011477</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:12 2019</timestamp>
+</msg>
+<msg id="335" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6921306</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:13 2019</timestamp>
+</msg>
+<msg id="336" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7041347</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:14 2019</timestamp>
+</msg>
+<msg id="337" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6932599</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:15 2019</timestamp>
+</msg>
+<msg id="338" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7039139</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:16 2019</timestamp>
+</msg>
+<msg id="339" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7068925</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:17 2019</timestamp>
+</msg>
+<msg id="340" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7106689</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:18 2019</timestamp>
+</msg>
+<msg id="341" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6908487</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:19 2019</timestamp>
+</msg>
+<msg id="342" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6807636</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:20 2019</timestamp>
+</msg>
+<msg id="343" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6920672</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:21 2019</timestamp>
+</msg>
+<msg id="344" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6946927</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:22 2019</timestamp>
+</msg>
+<msg id="345" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7028602</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:23 2019</timestamp>
+</msg>
+<msg id="346" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6993477</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:24 2019</timestamp>
+</msg>
+<msg id="347" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7102495</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:25 2019</timestamp>
+</msg>
+<msg id="348" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7063957</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:26 2019</timestamp>
+</msg>
+<msg id="349" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6996164</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:27 2019</timestamp>
+</msg>
+<msg id="350" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6867826</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:28 2019</timestamp>
+</msg>
+<msg id="351" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6841557</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:29 2019</timestamp>
+</msg>
+<msg id="352" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7047862</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:30 2019</timestamp>
+</msg>
+<msg id="353" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7132836</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:31 2019</timestamp>
+</msg>
+<msg id="354" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7014933</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:32 2019</timestamp>
+</msg>
+<msg id="355" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7026865</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:33 2019</timestamp>
+</msg>
+<msg id="356" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7019798</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:34 2019</timestamp>
+</msg>
+<msg id="357" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6530390</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:35 2019</timestamp>
+</msg>
+<msg id="358" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6519809</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:36 2019</timestamp>
+</msg>
+<msg id="359" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6992759</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:37 2019</timestamp>
+</msg>
+<msg id="360" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7062089</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:38 2019</timestamp>
+</msg>
+<msg id="361" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6950899</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:39 2019</timestamp>
+</msg>
+<msg id="362" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7009484</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:40 2019</timestamp>
+</msg>
+<msg id="363" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6895132</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:41 2019</timestamp>
+</msg>
+<msg id="364" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6950510</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:42 2019</timestamp>
+</msg>
+<msg id="365" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6956091</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:43 2019</timestamp>
+</msg>
+<msg id="366" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6992682</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:44 2019</timestamp>
+</msg>
+<msg id="367" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6948987</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:45 2019</timestamp>
+</msg>
+<msg id="368" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6963849</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:46 2019</timestamp>
+</msg>
+<msg id="369" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6966699</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:47 2019</timestamp>
+</msg>
+<msg id="370" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7072484</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:48 2019</timestamp>
+</msg>
+<msg id="371" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7027168</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:49 2019</timestamp>
+</msg>
+<msg id="372" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7016847</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:50 2019</timestamp>
+</msg>
+<msg id="373" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6986607</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:51 2019</timestamp>
+</msg>
+<msg id="374" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6959347</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:52 2019</timestamp>
+</msg>
+<msg id="375" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6847775</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:53 2019</timestamp>
+</msg>
+<msg id="376" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7039562</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:54 2019</timestamp>
+</msg>
+<msg id="377" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6807025</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:55 2019</timestamp>
+</msg>
+<msg id="378" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6835322</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:56 2019</timestamp>
+</msg>
+<msg id="379" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6873576</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:57 2019</timestamp>
+</msg>
+<msg id="380" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6792213</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:58 2019</timestamp>
+</msg>
+<msg id="381" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6863899</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:54:59 2019</timestamp>
+</msg>
+<msg id="382" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6921333</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:00 2019</timestamp>
+</msg>
+<msg id="383" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6881878</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:01 2019</timestamp>
+</msg>
+<msg id="384" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6958879</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:02 2019</timestamp>
+</msg>
+<msg id="385" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7054150</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:03 2019</timestamp>
+</msg>
+<msg id="386" tool="mc">
+  <type>FINDLEAK_RECEIVED</type>
+  <arg>2836</arg>
+  <arg>1</arg>
+  <arg>1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:04 2019</timestamp>
+</msg>
+<msg id="387" tool="mc">
+  <type>FINDLEAK_COMPLETE</type>
+  <arg>2836</arg>
+  <arg>1</arg>
+  <arg>1</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:04 2019</timestamp>
+</msg>
+<msg id="388" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>11188496</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:05 2019</timestamp>
+</msg>
+<msg id="389" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7011540</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:06 2019</timestamp>
+</msg>
+<msg id="390" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7038990</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:07 2019</timestamp>
+</msg>
+<msg id="391" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7026323</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:08 2019</timestamp>
+</msg>
+<msg id="392" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6922650</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:09 2019</timestamp>
+</msg>
+<msg id="393" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7076487</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:10 2019</timestamp>
+</msg>
+<msg id="394" tool="mc">
+  <type>RESETLEAK_RECEIVED</type>
+  <arg>2836</arg>
+  <arg>1</arg>
+  <arg>2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:11 2019</timestamp>
+</msg>
+<msg id="395" tool="mc">
+  <type>RESETLEAK_COMPLETE</type>
+  <arg>2836</arg>
+  <arg>1</arg>
+  <arg>2</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:11 2019</timestamp>
+</msg>
+<msg id="396" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>11819643</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:12 2019</timestamp>
+</msg>
+<msg id="397" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6984464</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:13 2019</timestamp>
+</msg>
+<msg id="398" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7057207</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:14 2019</timestamp>
+</msg>
+<msg id="399" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7027383</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:15 2019</timestamp>
+</msg>
+<msg id="400" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7073394</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:16 2019</timestamp>
+</msg>
+<msg id="401" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6935258</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:17 2019</timestamp>
+</msg>
+<msg id="402" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7046944</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:18 2019</timestamp>
+</msg>
+<msg id="403" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7040754</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:19 2019</timestamp>
+</msg>
+<msg id="404" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>7045604</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:20 2019</timestamp>
+</msg>
+<msg id="405" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>15308</arg>
+  <arg>0</arg>
+  <arg>6938896</arg>
+  <severity>INFO</severity>
+  <timestamp>Wed Oct 30 11:55:21 2019</timestamp>
+</msg>
+<msg id="406" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>1</arg>
+</msg>
+<msg id="407" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r001mi2\r001mi2.inspxe</arg>
+</msg>
+<msg id="408" tool="runtool">
+  <type>collector-canceled</type>
+</msg>
+<msg id="409" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/10/30 11:55:25</arg>
+</msg>
+
+</log>
+

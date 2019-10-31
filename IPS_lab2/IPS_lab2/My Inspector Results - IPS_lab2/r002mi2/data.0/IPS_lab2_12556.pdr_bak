@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>833161614</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>13088</threadid>
+			<stackstamp>833185686</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x6a226</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>2791390735</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>7192</threadid>
+			<stackstamp>2791415209</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x4c920</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>3356937785</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>11452</threadid>
+			<stackstamp>3356949159</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x4c920</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="4">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>3502755094</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>9560</threadid>
+			<stackstamp>3502765474</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x4c920</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="5">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>207081872682</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>9560</threadid>
+			<stackstamp>207081889790</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="6">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>207082517150</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>7192</threadid>
+			<stackstamp>207082534388</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="7">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>207083177421</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>11452</threadid>
+			<stackstamp>207083194507</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="8">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>2099897309462</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4608</threadid>
+			<stackstamp>2099897321438</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x4c920</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="9">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>2100093855930</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>7512</threadid>
+			<stackstamp>2100093868532</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x4c920</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="10">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>2101182259250</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4608</threadid>
+			<stackstamp>2101182271598</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="11">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>2101182617506</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>7512</threadid>
+			<stackstamp>2101182629310</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="12">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>2103164736180</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>13088</threadid>
+			<stackstamp>2103164748384</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="13">
+	<type>1012</type>
+	<message>
+		<timestamp>2103206576558</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>16</size>
+			<threadid>13088</threadid>
+			<stackstamp>16636124904</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x2230</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x267a</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x4ed9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x4d42</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x4bd8</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x4f53</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\syswow64\kernel32.dll</mod>
+				<rva>0x18482</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x63058</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x63025</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+
+<diag id="14">
+	<type>1012</type>
+	<message>
+		<timestamp>2103206576558</timestamp>
+		<mess_blocks>1</mess_blocks>
+		<defined>
+			<thrname></thrname>
+			<size>40</size>
+			<threadid>13088</threadid>
+			<stackstamp>18307160046</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x26fb</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x4ed9</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x4d42</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x4bd8</rva>
+			</loc>
+			<loc>
+				<mod>c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe</mod>
+				<rva>0x4f53</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\syswow64\kernel32.dll</mod>
+				<rva>0x18482</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x63058</rva>
+			</loc>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x63025</rva>
+			</loc>
+			</stacktrace>
+		</defined>
+	</message>
+</diag>
+</diags>

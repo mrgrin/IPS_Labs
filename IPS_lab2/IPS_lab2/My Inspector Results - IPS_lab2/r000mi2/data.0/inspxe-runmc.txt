@@ -1,0 +1,31 @@
+
+=== Start: [2019/10/30 11:45:19] === 
+Analysis started...
+Result file: C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r000mi2\r000mi2.inspxe 
+Analysis started for c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe (pid = 9496) 
+Loaded module: c:\users\volosov\source\repos\ips_lab2\debug\ips_lab2.exe, address range [0xb70000-0xb82fff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x73b50000-0x73d33fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76970000-0x76a4ffff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77260000-0x773effff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xcb90000-0xcd03fff] 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xcb90000-0xcc46fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xf5c0000-0xf5dafff] 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll, address range [0xcbe0000-0xcc27fff], minimal analysis 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xcf10000-0xd083fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xf440000-0xf4f6fff] 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll, address range [0xd0f0000-0xd137fff], minimal analysis 
+Loaded module: c:\windows\syswow64\user32.dll, address range [0x760b0000-0x7623cfff], minimal analysis 
+Loaded module: c:\windows\syswow64\win32u.dll, address range [0x75400000-0x75416fff] 
+Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x76080000-0x760a1fff] 
+Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x76ab0000-0x76c13fff], minimal analysis 
+Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x76fa0000-0x7701cfff] 
+Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x73dd0000-0x73eedfff] 
+Loaded module: c:\windows\syswow64\imm32.dll, address range [0x753d0000-0x753f5fff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll, address range [0xf8b0000-0xf8dcfff], minimal analysis 
+Application exit code: 1 
+Result file: C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r000mi2\r000mi2.inspxe 
+Analysis canceled by user
+=== End: [2019/10/30 11:46:54] === 

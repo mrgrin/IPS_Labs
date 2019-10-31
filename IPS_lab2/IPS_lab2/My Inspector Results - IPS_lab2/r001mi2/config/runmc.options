@@ -1,0 +1,18 @@
+-r
+C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\My Inspector Results - IPS_lab2\r001mi2
+--access-checks
+--no-analyze-stack
+--leak-maximum=100000
+--leak-check-on-exit
+--leak-check-on-demand
+--check-resource-leaks
+--leak-check-report-reachable
+--freelist-vol=0
+--guard-zone-size=0
+--stack-depth=8
+--no-close-console
+--mrte-mode=auto
+--heartbeat=1
+--enable-memory-growth
+--
+C:\Users\Volosov\source\repos\IPS_lab2\Debug\IPS_lab2.exe
