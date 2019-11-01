@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Users\Volosov\source\repos\IPS_lab2\IPS_lab2\Source.cpp" md5="4d9f9245f9c226b4c98d9627e659309b">
+    <snippet line="155">
+      <line line="152">    srand((unsigned)time(0));</line>
+      <line line="153"/>
+      <line line="154">    double **slau_matrix = new double*[MATRIX_SIZE];</line>
+      <line line="155">    double *result = new double[MATRIX_SIZE];</line>
+      <line line="156">    high_resolution_clock::time_point t_begin, t_end;</line>
+    </snippet>
+  </file>
+</snippets>

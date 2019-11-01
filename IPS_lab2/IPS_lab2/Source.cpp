@@ -72,7 +72,7 @@ void ParallelGaussMethod(double **matrix, const int rows, double* result)
 	for (int k = rows - 2; k >= 0; --k)
 	{
 		cilk::reducer < cilk::op_add<double> > par_result(matrix[k][rows]);
-		cilk_for(int j = k + 1; j < rows; ++j)
+		for(int j = k + 1; j < rows; ++j)
 			*par_result += -matrix[k][j] * result[j];
 		result[k] = par_result.get_value() / matrix[k][k];
 	}
@@ -153,10 +153,17 @@ int main()
 	srand((unsigned)time(0));
 
 	double **slau_matrix = new double*[MATRIX_SIZE];
+	double **slau_matrix2 = new double*[MATRIX_SIZE];
 	double *result = new double[MATRIX_SIZE];
+	double *result2 = new double[MATRIX_SIZE];
+
 	high_resolution_clock::time_point t_begin, t_end;
 
 	InitMatrix(slau_matrix);
+	InitMatrix(slau_matrix2);
+	for (int i = 0; i < MATRIX_SIZE; i++)
+		for (int j = 0; j < MATRIX_SIZE; j++)
+			slau_matrix2[i][j] = slau_matrix[i][j];
 	t_begin = high_resolution_clock::now();
 	ParallelGaussMethod(slau_matrix, MATRIX_SIZE, result);
 	t_end = high_resolution_clock::now();
@@ -165,7 +172,7 @@ int main()
 	printf("Time passed Parallel: %f\n", duration_parallel.count());
 
 	t_begin = high_resolution_clock::now();
-	SerialGaussMethod(slau_matrix, MATRIX_SIZE, result);
+	SerialGaussMethod(slau_matrix2, MATRIX_SIZE, result2);
 	t_end = high_resolution_clock::now();
 
 	duration<double> duration_serial = (t_end - t_begin);
@@ -176,7 +183,9 @@ int main()
 	//PrintResults(result, MATRIX_SIZE);
 
 	DeleteMatrix(slau_matrix, MATRIX_SIZE);
+	DeleteMatrix(slau_matrix2, MATRIX_SIZE);
 	delete[] result;
+	delete[] result2;
 
 	getchar();
 	return 0;
