@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo" md5="">
+    <snippet line="79">
+      <line line="76">        if (_Pch == nullptr)</line>
+      <line line="77">            _THROW(runtime_error("bad locale name"));</line>
+      <line line="78">        _Locinfo_ctor(this, _Pch);</line>
+      <line line="79">        }</line>
+      <line line="80"/>
+    </snippet>
+  </file>
+  <file name="C:\Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\Source.cpp" md5="">
+    <snippet line="56">
+      <line line="53">    cout.precision(10);</line>
+      <line line="54"/>
+      <line line="55">    cout &lt;&lt; "Time Elapsed: " &lt;&lt; duration.count() / 1000.0 &lt;&lt; "ms"&lt;&lt; endl;</line>
+      <line line="56">    cout &lt;&lt; "Result: " &lt;&lt; res &lt;&lt; endl;</line>
+      <line line="57"/>
+    </snippet>
+  </file>
+</snippets>

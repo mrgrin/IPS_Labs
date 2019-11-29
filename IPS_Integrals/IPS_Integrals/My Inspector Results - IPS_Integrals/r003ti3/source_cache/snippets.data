@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\compiler\include\cilk\reducer.h" md5="">
+    <snippet line="484">
+      <line line="481">    /** Default constructor.</line>
+      <line line="482">     */</line>
+      <line line="483">    scalar_view() : m_value() {}</line>
+      <line line="484"/>
+      <line line="485">    /** Value constructor.</line>
+    </snippet>
+  </file>
+  <file name="C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019\windows\compiler\include\cilk\reducer_opadd.h" md5="">
+    <snippet line="265">
+      <line line="262">     *          reduce operation.</line>
+      <line line="263">     */</line>
+      <line line="264">    void reduce(op_add_view* right) { this-&gt;m_value += right-&gt;m_value; }</line>
+      <line line="265"/>
+      <line line="266">    /** @name Accumulator variable updates.</line>
+    </snippet>
+  </file>
+</snippets>

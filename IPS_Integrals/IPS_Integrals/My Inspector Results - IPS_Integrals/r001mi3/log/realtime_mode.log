@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\My Inspector Results - IPS_Integrals\r001mi3\r001mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\users\volosov\source\repos\ips_integrals\release\ips_integrals.exe (pid = 12404) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\users\volosov\source\repos\ips_integrals\release\ips_integrals.exe, address range [0x1180000-0x1192fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x74d40000-0x74e1ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x77370000-0x77553fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x778f0000-0x77a7ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x775c0000-0x776ddfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140.dll, address range [0x609c0000-0x609d2fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140.dll, address range [0x5f600000-0x5f66efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll, address range [0xf040000-0xf087fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\user32.dll, address range [0x75780000-0x7590cfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\win32u.dll, address range [0x74e70000-0x74e86fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x74a20000-0x74a41fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x744a0000-0x74603fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x76c60000-0x76cdcfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\imm32.dll, address range [0x749c0000-0x749e5fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll, address range [0xe590000-0xe5bcfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin32\runtime\libittnotify.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll, address range [0xf110000-0xf13cfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x74e90000-0x74e9efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x75550000-0x7560efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x776f0000-0x777affff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\sspicli.dll, address range [0x741b0000-0x741cffff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\cryptbase.dll, address range [0x741a0000-0x741a9fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\bcryptprimitives.dll, address range [0x77310000-0x77367fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\sechost.dll, address range [0x77560000-0x775a3fff] </message>
+ <nop/>
+ <message severity="info">Process c:\users\volosov\source\repos\ips_integrals\release\ips_integrals.exe exited with code 0. Leak analysis starting. Please wait... </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Users\Volosov\source\repos\IPS_Integrals\Release\IPS_Integrals.exe </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\kernel32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\KernelBase.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ntdll.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ucrtbase.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\vcruntime140.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcp140.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\user32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\win32u.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\gdi32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\gdi32full.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcp_win.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\imm32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin32\runtime\libittnotify.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcrt.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\sspicli.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\cryptbase.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\bcryptprimitives.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\sechost.dll </message>
+ <nop/>
+ <message severity="info">Completed analysis for c:\users\volosov\source\repos\ips_integrals\release\ips_integrals.exe </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\My Inspector Results - IPS_Integrals\r001mi3\r001mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

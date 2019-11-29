@@ -1,0 +1,21 @@
+
+=== Start: [2019/11/29 13:11:41] === 
+Analysis started...
+Result file: C:\Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\My Inspector Results - IPS_Integrals\r002ti3\r002ti3.inspxe 
+Found target process c:\users\volosov\source\repos\ips_integrals\release\ips_integrals.exe (PID = 17224). Analysis started... 
+Loaded module: c:\users\volosov\source\repos\ips_integrals\release\ips_integrals.exe. 
+Loaded module: c:\windows\syswow64\kernel32.dll. 
+Loaded module: c:\windows\syswow64\kernelbase.dll. 
+Loaded module: c:\windows\syswow64\ntdll.dll. 
+Loaded module: c:\windows\syswow64\ucrtbase.dll. 
+Loaded module: c:\windows\syswow64\msvcp140.dll. 
+Loaded module: c:\windows\syswow64\vcruntime140.dll. 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll. 
+Loaded module: c:\windows\syswow64\user32.dll. 
+Loaded module: c:\windows\syswow64\win32u.dll. 
+Loaded module: c:\windows\syswow64\gdi32.dll. 
+Loaded module: c:\windows\syswow64\gdi32full.dll. 
+Loaded module: c:\windows\syswow64\msvcp_win.dll. 
+Warning: Inspector does not support the Microsoft Parallel Patterns Library and may report false positives. Refer to the product release notes. 
+Loaded module: c:\windows\syswow64\imm32.dll. 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll. 

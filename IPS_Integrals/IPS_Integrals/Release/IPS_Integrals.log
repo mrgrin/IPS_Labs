@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\Source.cpp(31): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    	cilk_for (int i = 0; i < n; i++) {
+    	^
+  
+C:\Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\Source.cpp(82): warning #69: integer conversion resulted in truncation
+    	int steps_num = 10000000000;
+    	                ^
+  
+  IPS_Integrals.vcxproj -> C:\Users\Volosov\source\repos\IPS_Integrals\Release\IPS_Integrals.exe

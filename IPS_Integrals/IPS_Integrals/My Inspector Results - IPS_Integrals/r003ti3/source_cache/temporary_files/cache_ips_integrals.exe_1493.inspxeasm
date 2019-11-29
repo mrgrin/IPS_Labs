@@ -1,0 +1,105 @@
+4912	push ebp
+4913	mov ebp, esp
+4915	and esp, 0xfffffff0
+4918	push esi
+4919	push edi
+4920	push ebx
+4921	sub esp, 0x14
+4924	mov edi, dword ptr [ebp+0xc]
+4927	cmp edi, dword ptr [ebp+0x10]
+4930	jnb 0x1497
+4936	mov ebx, dword ptr [ebp+0x8]
+4939	push dword ptr [ebx+0x8]
+4942	mov esi, dword ptr [ebx+0xc]
+4945	call dword ptr [0x4081a4]
+4951	mov ecx, eax
+4953	add esp, 0x4
+4956	mov eax, dword ptr [ebx+0x10]
+4959	mov edx, dword ptr [ebp+0x10]
+4962	sub edx, edi
+4964	movsd xmm6, qword ptr [ecx]
+4968	movsd xmm1, qword ptr [eax]
+4972	movsd xmm2, qword ptr [ebx]
+4976	cmp edx, 0x2
+4979	jb 0x14a1
+4985	mov eax, edx
+4987	lea ebx, ptr [edi+esi*1]
+4990	pxor xmm0, xmm0
+4994	pxor xmm4, xmm4
+4998	movsd xmm0, xmm6
+5002	movaps xmm5, xmm1
+5005	movdqu xmm7, xmmword ptr [0x408220]
+5013	and eax, 0xfffffffe
+5016	movd xmm6, ebx
+5020	lea ebx, ptr [edi+esi*1+0x1]
+5024	unpcklpd xmm5, xmm5
+5028	movsd qword ptr [esp], xmm2
+5033	movsd qword ptr [esp+0x8], xmm1
+5039	movd xmm3, ebx
+5043	xor ebx, ebx
+5045	punpckldq xmm6, xmm3
+5049	movaps xmm3, xmm2
+5052	punpcklqdq xmm6, xmm4
+5056	movsd xmm4, qword ptr [0x408288]
+5064	mulsd xmm4, xmm2
+5068	unpcklpd xmm3, xmm3
+5072	unpcklpd xmm4, xmm4
+5076	cvtdq2pd xmm2, xmm6
+5080	addpd xmm2, xmmword ptr [0x408230]
+5088	mulpd xmm2, xmm3
+5092	addpd xmm2, xmm5
+5096	movups xmm1, xmmword ptr [0x408240]
+5103	add ebx, 0x2
+5106	subpd xmm1, xmm2
+5110	mulpd xmm2, xmm1
+5114	sqrtpd xmm1, xmm2
+5118	movaps xmm2, xmm4
+5121	paddd xmm6, xmm7
+5125	divpd xmm2, xmm1
+5129	addpd xmm0, xmm2
+5133	cmp ebx, eax
+5135	jb 0x13d4
+5137	movaps xmm3, xmm0
+5140	unpckhpd xmm3, xmm0
+5144	movsd xmm2, qword ptr [esp]
+5149	addsd xmm0, xmm3
+5153	movsd xmm1, qword ptr [esp+0x8]
+5159	movaps xmm6, xmm0
+5162	cmp eax, edx
+5164	jnb 0x1493
+5166	movsd xmm4, qword ptr [0x408288]
+5174	lea ebx, ptr [edi+esi*1]
+5177	movsd xmm3, qword ptr [0x408290]
+5185	mulsd xmm4, xmm2
+5189	subsd xmm3, xmm1
+5193	movsd xmm5, qword ptr [0x408260]
+5201	movsd qword ptr [esp+0x8], xmm1
+5207	pxor xmm0, xmm0
+5211	lea esi, ptr [ebx+eax*1]
+5214	cvtsi2sd xmm0, esi
+5218	movsd xmm1, qword ptr [esp+0x8]
+5224	movaps xmm7, xmm3
+5227	inc eax
+5228	addsd xmm0, xmm5
+5232	mulsd xmm0, xmm2
+5236	addsd xmm1, xmm0
+5240	subsd xmm7, xmm0
+5244	mulsd xmm1, xmm7
+5248	movaps xmm0, xmm4
+5251	sqrtsd xmm1, xmm1
+5255	divsd xmm0, xmm1
+5259	addsd xmm6, xmm0
+5263	cmp eax, edx
+5265	jb 0x1457
+5267	movsd qword ptr [ecx], xmm6
+5271	add esp, 0x14
+5274	pop ebx
+5275	pop edi
+5276	pop esi
+5277	mov esp, ebp
+5279	pop ebp
+5280	ret 
+5281	xor eax, eax
+5283	jmp 0x142a
+5285	nop dword ptr [eax], eax
+5289	nop dword ptr [eax], eax

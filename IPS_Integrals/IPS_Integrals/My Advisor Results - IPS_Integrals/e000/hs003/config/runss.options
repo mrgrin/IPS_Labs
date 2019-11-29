@@ -1,0 +1,116 @@
+-r
+C:\Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\My Advisor Results - IPS_Integrals\e000\hs003
+--mrte-mode=auto
+--follow-child
+--return-app-exitcode
+--strategy=ld-linux.so.2:notrace:notrace,ld-linux-x86-64.so.2:notrace:notrace
+--interval=10
+--data-limit-mb=500
+--stack-stitching
+--stackwalk=offline
+--mrte-type=java,dotnet,python
+--type=cpu:stack
+--search-dir
+sym=C:\Users\Volosov\source\repos\IPS_Integrals\Release
+--search-dir
+sym=C:\Users\Volosov\source\repos\IPS_Integrals
+--search-dir
+bin=C:\Users\Volosov\source\repos\IPS_Integrals\Release
+--search-dir
+bin=C:\Users\Volosov\source\repos\IPS_Integrals
+--search-dir
+bin=C:/Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\$(VC_ExecutablePath_x86)
+--search-dir
+bin=C:/Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\$(WindowsSDK_ExecutablePath)
+--search-dir
+bin=C:/Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\$(VS_ExecutablePath)
+--search-dir
+bin=C:/Users\Volosov\source\repos\IPS_Integrals\IPS_Integrals\$(MSBuild_ExecutablePath)
+--search-dir
+bin=C:\WINDOWS\SysWow64
+--search-dir
+bin=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\FxCop
+--search-dir
+bin=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
+--search-dir
+bin=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp
+--search-dir
+bin=C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\mpi\intel64\bin
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler
+--search-dir
+bin=C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler
+--search-dir
+bin=C:\Program Files\Microsoft MPI\Bin
+--search-dir
+bin=C:\Program Files\Microsoft HPC Pack 2008 SDK\Bin
+--search-dir
+bin=C:\Program Files (x86)\Intel\iCLS Client
+--search-dir
+bin=C:\Program Files\Intel\iCLS Client
+--search-dir
+bin=C:\Windows\system32
+--search-dir
+bin=C:\Windows
+--search-dir
+bin=C:\Windows\System32\Wbem
+--search-dir
+bin=C:\Windows\System32\WindowsPowerShell\v1.0
+--search-dir
+bin=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+--search-dir
+bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL
+--search-dir
+bin=C:\Program Files\Intel\Intel(R) Management Engine Components\DAL
+--search-dir
+bin=C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT
+--search-dir
+bin=C:\Program Files\Intel\Intel(R) Management Engine Components\IPT
+--search-dir
+bin=C:\Program Files\MATLAB\R2016b\runtime\win64
+--search-dir
+bin=C:\Program Files\MATLAB\R2016b\bin
+--search-dir
+bin=C:\Program Files\MATLAB\R2016b\polyspace\bin
+--search-dir
+bin=C:\cuda\bin
+--search-dir
+bin=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64
+--search-dir
+bin=C:\Program Files\CMake\bin
+--search-dir
+bin=C:\WINDOWS\System32\OpenSSH
+--search-dir
+bin=C:\Program Files\Git\cmd
+--search-dir
+bin=C:\Program Files\Git\mingw64\bin
+--search-dir
+bin=C:\Program Files\Git\usr\bin
+--search-dir
+bin=C:\Program Files (x86)\Intel\CilkTools\bin
+--search-dir
+bin=C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0
+--search-dir
+bin=C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+--search-dir
+bin=C:\Users\Volosov\Anaconda3
+--search-dir
+bin=C:\Users\Volosov\Anaconda3\Library\mingw-w64\bin
+--search-dir
+bin=C:\Users\Volosov\Anaconda3\Library\usr\bin
+--search-dir
+bin=C:\Users\Volosov\Anaconda3\Library\bin
+--search-dir
+bin=C:\Users\Volosov\Anaconda3\Scripts
+--search-dir
+bin=C:\Users\Volosov\AppData\Local\Microsoft\WindowsApps
+--search-dir
+bin=C:\intelFPGA_lite\17.0\modelsim_ase\win32aloem
+--search-dir
+bin=C:\Users\Volosov\AppData\Local\GitHubDesktop\bin
+--
+C:\Users\Volosov\source\repos\IPS_Integrals\Release\IPS_Integrals.exe

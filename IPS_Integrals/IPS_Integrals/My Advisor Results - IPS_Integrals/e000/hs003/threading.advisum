@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename=""
+           line_no="-1"
+           routine="func@0x4013b0"
+           is_vectorized="1"
+           self_time="3.225979E+000"
+           total_time="3.225979E+000"
+           trip_counts=""
+           func_instance="6"
+           confidence="0"
+           efficiency="1.195000E+002"
+           referenceEfficiency="5.000000E+001"
+           priority="0"/>
+</IntelParallelAdvisorSummary >
