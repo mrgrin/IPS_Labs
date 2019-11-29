@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2019/11/29 16:28:00</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Volosov\source\repos\IPS_Lab5\IPS_Lab5\My Inspector Results - IPS_Lab5\r006mi3\r006mi3.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\users\volosov\source\repos\ips_lab5\release\ips_lab5.exe</arg>
+  <arg>17724</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:01 2019</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\users\volosov\source\repos\ips_lab5\release\ips_lab5.exe</arg>
+  <arg>0x1180000</arg>
+  <arg>0x1192fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:01 2019</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x74d40000</arg>
+  <arg>0x74e1ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:01 2019</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x77370000</arg>
+  <arg>0x77553fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:01 2019</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x778f0000</arg>
+  <arg>0x77a7ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:01 2019</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>0x775c0000</arg>
+  <arg>0x776ddfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:02 2019</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140.dll</arg>
+  <arg>0x5f600000</arg>
+  <arg>0x5f66efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:02 2019</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140.dll</arg>
+  <arg>0x609c0000</arg>
+  <arg>0x609d2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:02 2019</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll</arg>
+  <arg>0xf410000</arg>
+  <arg>0xf457fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:02 2019</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\user32.dll</arg>
+  <arg>0x75780000</arg>
+  <arg>0x7590cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:03 2019</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\win32u.dll</arg>
+  <arg>0x74e70000</arg>
+  <arg>0x74e86fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:03 2019</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\gdi32.dll</arg>
+  <arg>0x74a20000</arg>
+  <arg>0x74a41fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:03 2019</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\gdi32full.dll</arg>
+  <arg>0x744a0000</arg>
+  <arg>0x74603fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:03 2019</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp_win.dll</arg>
+  <arg>0x76c60000</arg>
+  <arg>0x76cdcfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:03 2019</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\imm32.dll</arg>
+  <arg>0x749c0000</arg>
+  <arg>0x749e5fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:04 2019</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll</arg>
+  <arg>0xf850000</arg>
+  <arg>0xf87cfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:05 2019</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x74e90000</arg>
+  <arg>0x74e9efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:05 2019</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x75550000</arg>
+  <arg>0x7560efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:05 2019</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x776f0000</arg>
+  <arg>0x777affff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:05 2019</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\sspicli.dll</arg>
+  <arg>0x741b0000</arg>
+  <arg>0x741cffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:06 2019</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\cryptbase.dll</arg>
+  <arg>0x741a0000</arg>
+  <arg>0x741a9fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:06 2019</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\bcryptprimitives.dll</arg>
+  <arg>0x77310000</arg>
+  <arg>0x77367fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:06 2019</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\sechost.dll</arg>
+  <arg>0x77560000</arg>
+  <arg>0x775a3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:06 2019</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9728,15884,13660,7316,4612,11088</arg>
+  <arg>1,1,1,1,0,1</arg>
+  <arg>41637,1192,9598,2094,7635,714</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:06 2019</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9728,15884,13660,7316</arg>
+  <arg>1,1,1,1</arg>
+  <arg>7051,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:07 2019</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9728,15884,13660,7316</arg>
+  <arg>0,1,1,1</arg>
+  <arg>31,0,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>c:\users\volosov\source\repos\ips_lab5\release\ips_lab5.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Users\Volosov\source\repos\IPS_Lab5\Release\IPS_Lab5.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\KernelBase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ucrtbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcp140.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\vcruntime140.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\user32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\win32u.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\gdi32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\gdi32full.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcp_win.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\imm32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files (x86)\IntelSWTools\Inspector 2019\bin32\runtime\libittnotify.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\sspicli.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\cryptbase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\bcryptprimitives.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\sechost.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>c:\users\volosov\source\repos\ips_lab5\release\ips_lab5.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Nov 29 16:28:08 2019</timestamp>
+</msg>
+<msg id="54" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="55" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\Volosov\source\repos\IPS_Lab5\IPS_Lab5\My Inspector Results - IPS_Lab5\r006mi3\r006mi3.inspxe</arg>
+</msg>
+<msg id="56" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="57" tool="runtool">
+  <type>log-end</type>
+  <arg>2019/11/29 16:28:13</arg>
+</msg>
+
+</log>
+

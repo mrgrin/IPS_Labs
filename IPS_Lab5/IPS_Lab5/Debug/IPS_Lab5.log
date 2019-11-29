@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Volosov\source\repos\IPS_Lab5\IPS_Lab5\Source.cpp(68): warning #3947: "_Cilk_for" has been deprecated, and will be removed in a future release.  Please refer to release notes for details and recommended alternatives
+    		cilk_for (size_t i = 0; i < numb_rows; ++i)
+    		^
+  

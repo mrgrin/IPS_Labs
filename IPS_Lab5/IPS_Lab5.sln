@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IPS_Lab5", "IPS_Lab5\IPS_Lab5.vcxproj", "{A96F45A0-56A3-4586-B427-4EE0F0162E12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A96F45A0-56A3-4586-B427-4EE0F0162E12}.Debug|x64.ActiveCfg = Debug|x64
+		{A96F45A0-56A3-4586-B427-4EE0F0162E12}.Debug|x64.Build.0 = Debug|x64
+		{A96F45A0-56A3-4586-B427-4EE0F0162E12}.Debug|x86.ActiveCfg = Debug|Win32
+		{A96F45A0-56A3-4586-B427-4EE0F0162E12}.Debug|x86.Build.0 = Debug|Win32
+		{A96F45A0-56A3-4586-B427-4EE0F0162E12}.Release|x64.ActiveCfg = Release|x64
+		{A96F45A0-56A3-4586-B427-4EE0F0162E12}.Release|x64.Build.0 = Release|x64
+		{A96F45A0-56A3-4586-B427-4EE0F0162E12}.Release|x86.ActiveCfg = Release|Win32
+		{A96F45A0-56A3-4586-B427-4EE0F0162E12}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08C2AFA7-F2C1-4046-AB1A-81B38906EE52}
+	EndGlobalSection
+EndGlobal

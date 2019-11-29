@@ -1,0 +1,17 @@
+-r
+C:\Users\Volosov\source\repos\IPS_Lab5\IPS_Lab5\My Inspector Results - IPS_Lab5\r003mi1
+--no-access-checks
+--no-analyze-stack
+--leak-maximum=100000
+--leak-check-only
+--leak-check-on-exit
+--check-resource-leaks
+--leak-check-report-reachable
+--freelist-vol=0
+--guard-zone-size=0
+--stack-depth=8
+--no-close-console
+--mrte-mode=auto
+--heartbeat=1
+--
+C:\Users\Volosov\source\repos\IPS_Lab5\Debug\IPS_Lab5.exe

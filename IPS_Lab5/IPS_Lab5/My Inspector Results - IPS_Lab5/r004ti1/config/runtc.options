@@ -1,0 +1,21 @@
+-r
+C:\Users\Volosov\source\repos\IPS_Lab5\IPS_Lab5\My Inspector Results - IPS_Lab5\r004ti1
+--check-deadlock
+--check-potential-deadlock
+--save-stack-on-lock-creation
+--no-check-datarace
+--no-terminate-on-deadlock
+--resolution=standard
+--no-check-stack-access
+--stack-depth=1
+--sampling-budget=5
+--1cell-mode=last-write
+--tool=tclcore
+--no-save-stack-on-first-access
+--no-save-stack-on-allocation
+--no-check-cross-thread-stack-access
+--no-close-console
+--mrte-mode=auto
+--heartbeat=1
+--
+C:\Users\Volosov\source\repos\IPS_Lab5\Debug\IPS_Lab5.exe

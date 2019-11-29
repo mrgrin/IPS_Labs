@@ -1,0 +1,37 @@
+
+=== Start: [2019/11/29 16:09:16] === 
+Analysis started...
+Result file: C:\Users\Volosov\source\repos\IPS_Lab5\IPS_Lab5\My Inspector Results - IPS_Lab5\r003mi1\r003mi1.inspxe 
+Analysis started for c:\users\volosov\source\repos\ips_lab5\debug\ips_lab5.exe (pid = 16700) 
+Loaded module: c:\users\volosov\source\repos\ips_lab5\debug\ips_lab5.exe, address range [0x40000-0x57fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x74d40000-0x74e1ffff], minimal analysis 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x77370000-0x77553fff], minimal analysis 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x778f0000-0x77a7ffff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\dnclrprofinfo.dll, address range [0xf790000-0xf7b4fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xf950000-0xfa06fff] 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll, address range [0x1890000-0x18d7fff], minimal analysis 
+Unloaded module: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xfc50000-0xfc6afff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xf0a0000-0xf213fff] 
+Loaded module: c:\program files (x86)\intelswtools\compilers_and_libraries_2019.5.281\windows\redist\ia32_win\compiler\cilkrts20.dll, address range [0xf350000-0xf397fff], minimal analysis 
+Loaded module: c:\windows\syswow64\user32.dll, address range [0x75780000-0x7590cfff], minimal analysis 
+Loaded module: c:\windows\syswow64\win32u.dll, address range [0x74e70000-0x74e86fff] 
+Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x74a20000-0x74a41fff], minimal analysis 
+Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x744a0000-0x74603fff], minimal analysis 
+Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x76c60000-0x76cdcfff] 
+Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x775c0000-0x776ddfff] 
+Loaded module: c:\windows\syswow64\imm32.dll, address range [0x749c0000-0x749e5fff], minimal analysis 
+Loaded module: c:\program files (x86)\intelswtools\inspector 2019\bin32\runtime\libittnotify.dll, address range [0xfd80000-0xfdacfff], minimal analysis 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x74e90000-0x74e9efff] 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x75550000-0x7560efff], minimal analysis 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x776f0000-0x777affff], minimal analysis 
+Loaded module: c:\windows\syswow64\sspicli.dll, address range [0x741b0000-0x741cffff], minimal analysis 
+Loaded module: c:\windows\syswow64\cryptbase.dll, address range [0x741a0000-0x741a9fff], minimal analysis 
+Loaded module: c:\windows\syswow64\bcryptprimitives.dll, address range [0x77310000-0x77367fff], minimal analysis 
+Loaded module: c:\windows\syswow64\sechost.dll, address range [0x77560000-0x775a3fff] 
+Process c:\users\volosov\source\repos\ips_lab5\debug\ips_lab5.exe exited with code 0. Leak analysis starting. Please wait... 
+Completed analysis for c:\users\volosov\source\repos\ips_lab5\debug\ips_lab5.exe 
+Application exit code: 0 
+Result file: C:\Users\Volosov\source\repos\IPS_Lab5\IPS_Lab5\My Inspector Results - IPS_Lab5\r003mi1\r003mi1.inspxe 
+Analysis completed
+=== End: [2019/11/29 16:13:57] === 
